@@ -1,0 +1,19 @@
+<div id="{{page.id}}" class="container marketing tab-pane" ng-repeat="(key, page) in home['pages']">
+	<div class="row featurette">
+		<div class="col-md-7 {{key/2==1?'col-md-push-5':''}}">
+			<h2>{{page.title}} <span class="text-muted"></span></h2>
+			<p>{{page.content}}</p>			
+			<div ng-show="page.list.length > 0">
+				<ul>
+				  <li ng-repeat="list in page['list']">{{list}}</li>
+				</ul>
+			</div>
+			<p><a class="btn btn-default" href="#home" data-toggle="tab" role="button">Go Back</a></p>			
+		</div>
+		<div class="col-md-5 {{key/2==1?'col-md-pull-7':''}}">
+			<img class="featurette-image img-responsive center-block" src="{{page.imgURL}}" alt="Generic placeholder image">
+		</div>
+	</div>
+</div>
+		
+	

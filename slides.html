@@ -1,0 +1,28 @@
+    <!-- Carousel -->
+	<div id="homeCarousel" class="carousel slide tab-pane fade in"  data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#homeCarousel" data-slide-to="{{key}}" class="{{value.class=='first-slide'?'active':''}}" ng-repeat="(key, value) in home['slides']"></li>      
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item {{slide.class=='first-slide'?'active':''}}" ng-repeat="slide in home['slides']">
+          <img class="{{slide.class}}" src="{{slide.imgURL}}" alt="{{slide.class}}">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>{{slide.subject}}</h1>
+              <p>{{slide.description}}</p>
+              <p><a class="btn btn-lg btn-primary details" href="#portfolio" data-toggle="tab" role="button" for="{{slide.detailLink}}">More Details</a></p>
+            </div>	
+          </div>
+        </div>       
+      </div>
+      <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#homeCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
