@@ -28,8 +28,8 @@ $(document).ready(function (){
 	$('#navbar').tab();	
 	$('[data-toggle="tooltip"]').tooltip(); 
 	
-	//document.onmousedown=disableclick;
-	//status="Right Click Disabled";
+	document.onmousedown=disableclick;
+	status="Right Click Disabled";
 
  });
 
@@ -48,3 +48,24 @@ function disableclick(event){
   if(event.button==2) return false;    
 }
 
+var myCenter = new google.maps.LatLng(33.7550, -84.3900);
+
+function initialize() {
+	var mapProp = {
+			center:myCenter,
+			zoom:12,
+			scrollwheel:false,
+			draggable:false,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+			};
+
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+			var marker = new google.maps.Marker({
+			position:myCenter,
+	});
+
+	marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);

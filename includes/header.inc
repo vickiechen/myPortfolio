@@ -65,7 +65,8 @@
                     <li><a href="mailto:vickie_tree@hotmail.com">Email</a></li>
 					<li><a href="https://www.linkedin.com/in/vickie-chen-5a3200b7" target="_blank">Linkedin</a></li>
 					<li><a href="https://github.com/VickieChenAtGithub/myPortfolio/" target="_blank">Source Code</a></li>
-					<li><a href="data/WanchiChen_Resume_2016.doc" download="WanchiChen_Resume" >Download My Resume</a></li>                    
+					<li><a href="data/WanchiChen_Resume_2016.doc" download="WanchiChen_Resume" >Download My Resume</a></li> 
+					<li><a href="#maps" data-toggle="tab">Location</a></li>					
                   </ul>
                 </li>
               </ul>
