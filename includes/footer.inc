@@ -1,11 +1,12 @@
+ <hr>	
+ <p class="pull-right" style="position:fixed;bottom:10px;right:10px"><a href="#">Back to top</a></p>
+ 
+ <!-- FOOTER -->	
+    <footer>
+        <p>&copy; 2016 Vickie Chen. &middot; WEB Tools used: HTML, CSS, JS(jquery, Angular, Bootstrap,etc), JSON file.</p>
+    </footer>
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Vickie Chen. &middot; WEB Tools used: HTML, CSS,JS (jquery, Angular, Bootstrap,etc), JSON FILE</p>
-      </footer>
-
-    </div><!-- /.container -->
+    </div><!-- Angular homeController Controller-->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -17,11 +18,12 @@
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
 	<script src="js/modal.js"></script>	
     <script src="js/holder.min.js"></script>
-	<script src="js/app.js"></script>
+	<script src="js/ie-emulation-modes-warning.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-	
-	</div><!-- /. ng-controller-->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>		
+	<script type="text/javascript" src="http://www.google.com/jsapi?key=###api-key###"></script>
+	<script src="js/app.js"></script>
   </body>
 </html>
  

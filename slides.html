@@ -1,4 +1,4 @@
-    <!-- Carousel -->
+<!-- Carousel , GET SLIDES FROM home.json FILE-->
 	<div id="homeCarousel" class="carousel slide tab-pane fade in"  data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -11,7 +11,7 @@
             <div class="carousel-caption">
               <h1>{{slide.subject}}</h1>
               <p>{{slide.description}}</p>
-              <p><a class="btn btn-lg btn-primary details" href="#portfolio" data-toggle="tab" role="button" for="{{slide.detailLink}}">More Details</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#portfolio" role="button" onclick="showProject(this)" tabname="{{slide.detailLink}}">More Details</a></p>
             </div>	
           </div>
         </div>       
@@ -24,5 +24,4 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
-
+    </div><!-- END carousel -->

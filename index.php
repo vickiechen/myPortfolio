@@ -4,10 +4,12 @@
 <!-- Wrap the rest of the page in another container to center all the content. -->	
 <!-- Add Angular Controller -->
 <div class="tab-content">		
-	<?php include("home.html");?>  
+	<!-- Wrap the rest of the page in another container to center all the content. -->	
+	<div class="tab-content">	
+	<?php include("home.html");?>  	
 	<?php include("panels.html");?>  		
-	<?php include("portfolio.html");?>  		
+	<?php include("portfolio.html");?> 
 </div>
-<hr>
+<!-- END tab-content -->	
 
 <?php include("includes/footer.inc");?>

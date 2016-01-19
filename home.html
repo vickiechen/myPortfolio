@@ -1,11 +1,12 @@
-<!-- Home -->
-<div id="home" class="container marketing tab-pane active">
-	<div class="row">
-		<div class="col-lg-4" ng-repeat="home in home['home']">
-			<img class="img-circle" src="{{home.imgURL}}" alt="Generic placeholder image" width="140" height="140">
-			<h2>{{home.subject}}</h2>
-			<p>{{home.description}}</p>		
-			<p><a class="btn btn-default" href="#{{home.detailLink}}" data-toggle="tab" role="button">View details &raquo;</a></p>
-		</div><!-- /.col-lg-4 -->
-    </div><!-- /.row --> 
-</div>
+		<!-- Home TAB, GET CONTENT FROM home.json FILE -->
+		<div id="home" class="container marketing tab-pane active">
+			<div class="row">
+				<div class="col-lg-4" ng-repeat="home in home['home']">
+					<img class="img-circle" src="{{home.imgURL}}" alt="Generic placeholder image" width="140" height="140">
+					<h2>{{home.subject}}</h2>
+					<p>{{home.description}}</p>		
+					<p><a class="btn btn-default" href="#{{home.detailLink}}" data-toggle="tab" role="button">View details &raquo;</a></p>
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row --> 
+		</div>
+		<!-- END Home TAB -->
