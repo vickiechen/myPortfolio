@@ -2,15 +2,15 @@ var visitorinfo = {};
 
 $(document).ready(function (){	
 	if (window['google'] && google.loader.ClientLocation) {
-				visitorinfo = {
-				  'name':    'google', 
-				  'country': google.loader.ClientLocation.country,
-				  'city':       google.loader.ClientLocation.city,
-				  'longitude':      google.loader.ClientLocation.longitude, 
-				  'latitude':        google.loader.ClientLocation.latitude    
-				};
-			};  
-			
+		visitorinfo = {
+			'name':    'google', 
+			'country': google.loader.ClientLocation.country,
+			'city': google.loader.ClientLocation.city,
+			'longitude': google.loader.ClientLocation.longitude, 
+			'latitude': google.loader.ClientLocation.latitude    
+		};
+	};  
+		
 	// Add smooth scrolling to all links in navbar link
    $("#navbar a, .details").on('click', function(event) { 
 		if(this.hash.indexOf("#")==0){
@@ -36,13 +36,14 @@ $(document).ready(function (){
 	$('#navbar').tab();
 	$('[data-toggle="tooltip"]').tooltip(); 
 	
-	/*document.onmousedown=disableclick;
-	status="Right Click Disabled";*/
+	document.onmousedown=disableclick;
+	status="Right Click Disabled";
 	
 	//show google map
 	$('#showmap').on('shown.bs.tab', function(event){	
 		var visitor = new google.maps.LatLng(visitorinfo.latitude, visitorinfo.longitude); 
-		var myCenter = new google.maps.LatLng(33.7550, -84.3900); //Atlanta Location	
+		//var myCenter = new google.maps.LatLng(33.7550, -84.3900); //Atlanta Location	
+		var myCenter = new google.maps.LatLng(33.8257885, -84.3459087);
 		var mapDiv = document.getElementById("map");
 		var map = initMap(myCenter,mapDiv);		
 		getCurrentLocation(myCenter, map);
@@ -70,9 +71,8 @@ function showProject(obj){
 			
 /*** google map api ***/
 function initMap(mylocation,div) {	
-	var myLatLng = {lat: 33.7550, lng: -84.3900};
 	var mapProp = {
-		center:myLatLng,
+		center:mylocation,
 		zoom:12,
 		scrollwheel:true,
 		draggable:true,
