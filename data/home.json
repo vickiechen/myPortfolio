@@ -1,20 +1,20 @@
 {
 	"home": [
 		{
-			"subject":"About Me",
-			"description":"Hi, I'm Vickie, a senior web developer fascinated with building user friendly web and mobile applications/tools. You can find out more about me here. Please have a look at some things I've build. I've just started building this portfolio in 2016 and there are still more stuff I would like to add. Any advice would be appreciated!",					
+			"subject":"Subject",
+			"description":"Hi, I'm Vickie, a senior web developer fascinated with building user friendly web applications/tools. You can find out more about me here. Please have a look at some things I've build!",					
 			"imgURL":"img/profilepic.jpg",
 			"detailLink":"aboutme"
 		},
 		{
 			"subject":"Skills",
-			"description":"Proficient in developing and designing PHP web applications from start to end with web based technologies in LAMPP environment (Full stack). Also experience in developing front ends web applications with HTML5, XML, JQUERY MOBILE, and JAVASCRIPT.  Relation database experiences in Mysql, Postgressql, and MSSQL.",		
+			"description": "Web development: JAVASCRIPT, JQUERY, AJAX, EMBERJS, BOOTSTRAPJS, CHARTJS, W2UI, HTML5, CSS, JSON, and XML. Database management: MYSQL, POSTGRESSQL, and MSSQL. Web server admin: APACHE, IIS, TOMCAT. Source Version control: GIT. Programming language: PHP, PERL, and JAVA. Operating System: Linux REDHAT, WINDOWS SERVER 2008/2012.  Other scripts: Bash, Perl, Python (Basic Concepts). Scrum: JIRA Agile",		
 			"imgURL":"img/skills.jpg",
 			"detailLink":"skills"
 		},
 		{
-			"subject":"Interests",
-			"description":"I am interested in building customer focused and user friendly web applications. One of my main hobbies involves solving articulate and integration problems through web development and programming.",		
+			"subject":"Strengths",
+			"description":"Able to write JavaScript both in its row form and the common JS libraries. Understand the lifecycle of web works and can make pragmatic engineering decisions. Experience and understanding of REST, can build and support JSON base APIs. Experience work on large scale databases schema in Mysql and postgreSql. Accustomed to delivering successful software production in Agile software development methodology. Self-motivated and am able to work on a team with minimal supervision and mentor junior developers. Willing to take challenges and learn new technologies.",		
 			"imgURL":"img/want2do.jpg",
 			"detailLink":"interest"
 		}
@@ -99,10 +99,10 @@
 		{
 			"id":"aboutme",
 			"title":"About Me",
-			"content":"I am currently employed as a Senior Client Server Web Developer at UAMS. My main job includes developing and supporting applications for the Translational, Cancer and Informatics Core Research Institute. I have also implemented and integrated CABIG and clinical applications supporting clinical research and trials management. One of the main point of my works involves building and enhancing enterprise software applications including CABIG initiatives, at the same time developing and maintaining clinical research informatics tools. I graduated with a Master's Degree in Computer and Information Science.  Through my work, I have developed a full and thorough understanding of a software development cycle. I am very interested and excited in learning new concepts, skills and technologies.  Below are some of my key strength and skills: ",
+			"content":"I am currently employed as a Full Stack Web Developer at Apex systems. My main job is rebuiding exist AT&T ineternal web applications using BOOTSRAPJS, EMBERJS, EMBERJS, PERL, Mojolicious, and MYSQL. I am very interested and excited in learning new concepts, skills and technologies.  Below are some of my key strength and skills: ",
 			"list":[
-				"Proficient in designing and developing PHP web applications from start to end with web based technologies in LAMPP environment",
-				"Experience in designing and developing mobile device native applications with HTML5, XML, JQUERY MOBILE, and JAVASCRIPT",
+				"Proficient in designing and developing PHP/PERL web applications from start to end with web based technologies in LAMPP environment",
+				"Experience in designing and developing mobile device native applications with HTML5, XML, JQUERY MOBILE, JAVASCRIPT, and EMBERJS",
 				"Working in JAVA with Spring and Struts frameworks",
 				"Relation database experience with MYSQL, POSTGRESQL, and MSSQL",
 				"Web server installation and configuration with APACHE, TOMCAT, JBOSS, ANT, MAVEN, IIS, and GLASSFISH",
@@ -113,19 +113,20 @@
 				"Able to work well under stress with tight deadlines",
 				"Work well with others in a team environment"
 				],
-			"imgURL":"img/uams.jpg"			
+			"imgURL":"img/att.jpg"			
 		},
 		{
 			"id":"skills",
 			"title":"Skills",
-			"content":"Proficient in developing and designing PHP web applications from start to end with web based technologies in LAMPP environment (Full stack). Also experience in developing front ends web applications with HTML5, XML, JQUERY MOBILE, JAVASCRIPT. Relation database experiences in Mysql, Postgressql, and MSSQL.",	
+			"content":"Proficient in developing and designing PHP/PERL web applications from start to end with web based technologies in LAMPP and Mojolicious environment (Full stack). Also experience in developing front ends web applications with HTML5, XML, JQUERY MOBILE, JAVASCRIPT. Relation database experiences in Mysql, Postgressql, and MSSQL.",	
 			"list":[
 				"Operating System: Windows XP/2003/2008/2012, Linux Redhat, Solaris 10 Unix",
 				"Web Servers (Installation and administration) : Apache, Tomcat, JBoss, IIS 6, Glassfish",
+				"API: Mojolicious",
 				"Frameworks: Zend, Spring MVC, Struts, Mobione",
 				"Database experiences with MYSQL, POSTGRESQL, and MSSQL",
-				"Programming Languages: PHP, Java, Ruby, .NET",
-				"Scripting languages: JavaScript, Ajax, JQuery, Json, Unix Shell scripting, Windows batch scripting",
+				"Programming Languages: PHP, Java, PERL",
+				"Scripting languages: JavaScript, Ajax, JQuery, Ember, Bootstrap, Json, Unix Shell scripting, Windows batch scripting",
 				"Markups: HTML, HTML5, CSS, XML",
 				"Build Tools: Ant, Maven",
 				"Networks: Concepts, Security, SSL certificates, and Troubleshooting issues",
@@ -138,7 +139,7 @@
 			"title":"Interests:",
 			"content":"I am interested in building customer focused and user friendly web applications. One of my main hobbies involves solving articulate and integration problems through web development and programming. I am planning to do more work in the near future especially in the following areas: ",
 			"list":[
-				"Jquery Frameworks such as Angular.js, Node.js, Jasmine.js,etc",
+				"Jquery Frameworks such as Angular.js, React.js, Jasmine.js,etc",
 				"Mobile applications",
 				"Management Skills"		
 			],				
@@ -147,8 +148,9 @@
 		{
 			"id":"work",
 			"title":"Employment History",
-			"content":"I have been working as a developer Since 2008. I've developed, integrated, and implemented several web applications. My work involves building and enhancing enterprise software applications, programming and customization tools related to the caBIG initiatives, and developing and maintaining open sources for clinical research informatics. Below is my employment history. My resume is also avaliable for downloading from the menu bar.",
+			"content":"I have been working as a developer Since 2008. I've developed, integrated, and implemented several web applications and created/Refactored large scale database schema. I have good analysing and debugging skills and like to create reuseble components/functions and subclass exist modules to extend customized features. Below is my employment history. My resume is also avaliable for downloading from the menu bar.",
 			"list":[
+				"Full Stack Web Developer, April 2016 ~ present at Apex Systems - AT&T internal applications",
 				"Sr. Client Server Web Developer, October 2010 ~ present at University of Arkansas for Medical Sciences",
 				"Programmer Analyst Consultant, April 2010 ~ September 2010 at Twin Med LLC",
 				"Web Programmer Internship, May 2009 ~ August 2009 at Suso Technology Services",
