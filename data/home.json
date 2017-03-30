@@ -1,0 +1,171 @@
+{
+	"home": [
+		{
+			"subject":"About Me",
+			"description":"Hi, I'm Vickie, a senior web developer fascinated with building user friendly web and mobile applications/tools. You can find out more about me here. Please have a look at some things I've build. I've just started building this portfolio in 2016 and there are still more stuff I would like to add. Any advice would be appreciated!",					
+			"imgURL":"img/profilepic.jpg",
+			"detailLink":"aboutme"
+		},
+		{
+			"subject":"Skills",
+			"description":"Proficient in developing and designing PHP web applications from start to end with web based technologies in LAMPP environment (Full stack). Also experience in developing front ends web applications with HTML5, XML, JQUERY MOBILE, and JAVASCRIPT.  Relation database experiences in Mysql, Postgressql, and MSSQL.",		
+			"imgURL":"img/skills.jpg",
+			"detailLink":"skills"
+		},
+		{
+			"subject":"Interests",
+			"description":"I am interested in building customer focused and user friendly web applications. One of my main hobbies involves solving articulate and integration problems through web development and programming.",		
+			"imgURL":"img/want2do.jpg",
+			"detailLink":"interest"
+		}
+	],
+	"slides": [
+		{
+			"class":"first-slide",
+			"subject":"Adverse Event Reporting System",
+			"description":"AERS is an application developed to allow clinical research staff to collect adverse event, AE, information from patients using Common Terminology Criteria for Adverse Events, version 4, CTCAE v4, event definitions. Research staff can review ongoing AEs, review previously resolved AEs, and enter new AEs for a patient.",
+			"responsibilities":"Developed PHP web application from scratch, build all layers, from database to user interfaces. The application allows clinical research staffs to collect adverse event information from patients using Common Terminology Criteria and Limesurvey event definitions from Adverse Events version 4 (CTCAE v4).  It also allows research staffs to create/review/edit new/ongoing events and communicate them to UAMS EPIC and OpneClinica via our web service channels.",			
+			"imgURL":"img/bg1.jpg",
+			"detailLink":"aers",
+			"screenshot":["aers1.png","aers2.png","aers3.png","aers4.png","aers5.png","aers6.png","aers7.png","aers8.png","aers9.png","aers10.png","aers11.png","aers12.png","aers13.png","aers14.png","aers15.png","aers16.png","aers17.png"],
+			"docs":"AERSDOC.pdf",
+			"externalLinks":[{"subject":"Publication","link":"https://www.researchgate.net/publication/283951230_An_adverse_event_capture_and_management_system_for_cancer_studies"}]
+		},
+		{
+			"class":"second-slide",
+			"subject":"UAMS Core Management",
+			"description":"An online interface that allows researchers to easily access and request varied services offered by different departments and labs across campus. From the Ucore homepage, users select from a list of 19 different subcores ranging from TRI's Clinical Research Services core, to the Genomics Core, to the Tissue Procurement Facility. Each core is set up according to the different services that are provided, but all allow researchers to make service requests and track progress and results from one easy-to-access point.",
+			"responsibilities":"Brand new PHP web application build from scratch, including database and user interface layers. The application process new project registration, service control, lab process and billing status on UAMS cores. Each core has full control over assigning different user roles, rights, service items, price control, and calendar scheduling.",				
+			"imgURL":"img/bg7.jpg",
+			"detailLink":"ucore",			"screenshot":["ucore1.png","ucore2.png","ucore3.png","ucore4.png","ucore5.png","ucore6.png","ucore7.png","ucore8.png","ucore9.png","ucore10.png","ucore11.png","ucore12.png","ucore13.png","ucore14.png"]
+		},
+		{			
+			"class":"third-slide",
+			"subject":"Limesurvey in National Children Study",
+			"description":"LimeSurvey is an open source for survey data collection which enables data-collectors to quickly deliver questionnaires to respondents, collect responses, and analyze or export results in various formats. In addition to a large range of question types and presentation methods, allows for participant management through tokens and branching logic utilizing conditional questions. The Question-by-Question functionality associated with each survey, as well as the Self-Administered Questionnaire, SAQ, and associated evaluation, are all fully functional.",	
+			"responsibilities":"Install and setup Limesurvey application instances on multi-servers along with CRIS application integrations. Created adaptive plug-in software components for the National Children's Study.",				
+			"imgURL":"img/bg5.jpg",
+			"detailLink":"ls",			
+			"screenshot":["ls1.png","ls2.png","ls3.png","ls4.png","ls5.png","ls6.png"]
+		}
+		,
+		{			
+			"class":"four-slide",
+			"subject":"LimeSurvey Mobile application",
+			"description":"The idea of this application is to help participants to take a survey without internet access. Users can simply import survey structures from UAMS online Survey servers onto their devices when they have internet access. Then, they can start collecting data at any location at any time without the internet. Users can edit or resume responses on the devices and later export back to UAMS online Survey servers when they are back to their offices or work!",	
+			"responsibilities":"Developed mobile applications using HTML5, XML, JAVASCRIPT, AJAX, JQUERY, and CSS. Mobile application integration with UAMS Central Authentication Service. This application allows users to import online survey structures (from multiple servers) to local devices and access them locally. It also allows them to review/resume/edit survey responses, export  back to online Limesurvey servers.",						
+			"imgURL":"img/bg4.jpg",
+			"detailLink":"ols",			"screenshot":["ols1.png","ols2.png","ols3.png","ols4.png","ols5.png","ols6.png","ols7.png","ols8.png","ols9.png","ols10.png","ols11.png","ols12.png","ols13.png","ols14.png"],
+			"docs":"OLS.pdf"
+		},
+		{			
+			"class":"five-slide",
+			"subject":"Family History and FHH Portal",
+			"description":"Family Health Portrait used to collect and store family health history, FHH, and pedigree generation. Allows information to be saved in an XML format and FHH Portal integrates FHP, LS, CT and C3PR for complete pictorial view of data collection status.",	
+			"responsibilities":"Developed PHP web application, all layers, from database to service to user interfaces. Integrated UAMS Central Authentication Service, allow research staffs collect family history, Limesurvey, and Catissue by searching C3PR studies and participant - a suggestion list linked to C3PR will be promoted, allow clinical staffs to add/edit family history information linked to UAMS Family History site. It also has its own user account admin for user who does not have UAMS account to access this application. Installed and configured Family History Portrait from online open source to our server using JBOSS, JAVA, and STRUTS. Integrated with UAMS Central Authentication Service and UAMS Family history site. Modified/developed custom functions.",				
+			"imgURL":"img/bg3.jpg",
+			"detailLink":"fhh",
+			"screenshot":["comingsoon.jpg"]
+		},
+		{			
+			"class":"six-slide",
+			"subject":"Sugarcrm",
+			"description":"SugarCRM, an open source application, supports Customer Relationship Management for community engagement and cancer control.",	
+			"responsibilities":"Installed Surgarcrm application from an online source to our internal servers. Application integration with UAMS Central Authentication Service, imported modules, and custom functions.",				
+			"imgURL":"img/bg2.jpg",
+			"detailLink":"sugarcrm",			
+			"screenshot":["sugarcrm1.png","sugarcrm2.png","sugarcrm3.png","sugarcrm4.png","sugarcrm5.png"]
+		},
+		{			
+			"class":"seven-slide",
+			"subject":"Clinical Trialsearch",
+			"description":"TrialSearch shows basic study information, hosts documents, and, though mainly for use within UAMS' environment, does possess limited capabilities for access outside of UAMS. The traininig module is integrated into the ET delegation log.",	
+			"responsibilities":"Developed user interfaces for import/search/edit/export classes and functions using PHP, XML, JAVASCRIPT, and AJAX. Allow research staffs to import all related/search studies from Clinical Trial search and publish existing studies to UAMS clinical Trial. Monthly scheduling is also supported.",				
+			"imgURL":"img/bg10.jpg",
+			"detailLink":"trialsearch",			
+			"screenshot":["ts1.png","ts2.png","ts3.png","ts4.png","ts5.png"]			
+		},
+		{			
+			"class":"eight-slide",
+			"subject":"Others",
+			"description":"My Other projects on previous works and schools by using Html, Javascript, PHP, JAVA, JSP, AND .NET.",
+			"responsibilities":"Developing, maintaining, and troubleshooting database-driven web applications that utilize Web technologies (PHP, JAVA, JSP, .NET, JAVASCRIPT, JQUERY, JSON, AJAX, XML, etc.).",		
+			"imgURL":"img/bg8.jpg",
+			"detailLink":"others",			
+			"screenshot":["MCS1.png","MCS2.png","suso1.png","suso2.png","suso3.jpg","suso4.jpg","shop1.png","shop2.png","shop3.png","shop4.png","shop5.png","shop6.png","shop7.png","styletemplates.jpg","jspApp.jpg","javaApplication.jpg","onFocus.jpg","boboCamera_NET.jpg","bobo.jpg","bha.jpg"]			
+		}
+	],
+	"pages": [
+		{
+			"id":"aboutme",
+			"title":"About Me",
+			"content":"I am currently employed as a Senior Client Server Web Developer at UAMS. My main job includes developing and supporting applications for the Translational, Cancer and Informatics Core Research Institute. I have also implemented and integrated CABIG and clinical applications supporting clinical research and trials management. One of the main point of my works involves building and enhancing enterprise software applications including CABIG initiatives, at the same time developing and maintaining clinical research informatics tools. I graduated with a Master's Degree in Computer and Information Science.  Through my work, I have developed a full and thorough understanding of a software development cycle. I am very interested and excited in learning new concepts, skills and technologies.  Below are some of my key strength and skills: ",
+			"list":[
+				"Proficient in designing and developing PHP web applications from start to end with web based technologies in LAMPP environment",
+				"Experience in designing and developing mobile device native applications with HTML5, XML, JQUERY MOBILE, and JAVASCRIPT",
+				"Working in JAVA with Spring and Struts frameworks",
+				"Relation database experience with MYSQL, POSTGRESQL, and MSSQL",
+				"Web server installation and configuration with APACHE, TOMCAT, JBOSS, ANT, MAVEN, IIS, and GLASSFISH",
+				"Other skills involving programming, shell scripting, web designs, networking, and testing",
+				"In depth understanding and implementation of Software Development Life Cycle i.e. requirements definition, Analysis, Design, and Implementation",
+				"Ability to manage and support several projects in a fast paced, dynamic, and often intense work environment",
+				"Strong organizational and analytical skills",
+				"Able to work well under stress with tight deadlines",
+				"Work well with others in a team environment"
+				],
+			"imgURL":"img/uams.jpg"			
+		},
+		{
+			"id":"skills",
+			"title":"Skills",
+			"content":"Proficient in developing and designing PHP web applications from start to end with web based technologies in LAMPP environment (Full stack). Also experience in developing front ends web applications with HTML5, XML, JQUERY MOBILE, JAVASCRIPT. Relation database experiences in Mysql, Postgressql, and MSSQL.",	
+			"list":[
+				"Operating System: Windows XP/2003/2008/2012, Linux Redhat, Solaris 10 Unix",
+				"Web Servers (Installation and administration) : Apache, Tomcat, JBoss, IIS 6, Glassfish",
+				"Frameworks: Zend, Spring MVC, Struts, Mobione",
+				"Database experiences with MYSQL, POSTGRESQL, and MSSQL",
+				"Programming Languages: PHP, Java, Ruby, .NET",
+				"Scripting languages: JavaScript, Ajax, JQuery, Json, Unix Shell scripting, Windows batch scripting",
+				"Markups: HTML, HTML5, CSS, XML",
+				"Build Tools: Ant, Maven",
+				"Networks: Concepts, Security, SSL certificates, and Troubleshooting issues",
+				"Other Tools: Notepad++, Putty, TortoiseSVN, Github, PhpMyadmin, Mysql Work Bench, Zend, NetBeans, JCreator, MS Visual Studio, CVS, GIMP"
+			],			
+			"imgURL":"img/skills.jpg"
+		},
+		{
+			"id":"interest",
+			"title":"Interests:",
+			"content":"I am interested in building customer focused and user friendly web applications. One of my main hobbies involves solving articulate and integration problems through web development and programming. I am planning to do more work in the near future especially in the following areas: ",
+			"list":[
+				"Jquery Frameworks such as Angular.js, Node.js, Jasmine.js,etc",
+				"Mobile applications",
+				"Management Skills"		
+			],				
+			"imgURL":"img/want2do.jpg"
+		},
+		{
+			"id":"work",
+			"title":"Employment History",
+			"content":"I have been working as a developer Since 2008. I've developed, integrated, and implemented several web applications. My work involves building and enhancing enterprise software applications, programming and customization tools related to the caBIG initiatives, and developing and maintaining open sources for clinical research informatics. Below is my employment history. My resume is also avaliable for downloading from the menu bar.",
+			"list":[
+				"Sr. Client Server Web Developer, October 2010 ~ present at University of Arkansas for Medical Sciences",
+				"Programmer Analyst Consultant, April 2010 ~ September 2010 at Twin Med LLC",
+				"Web Programmer Internship, May 2009 ~ August 2009 at Suso Technology Services",
+				"UNIX System Administrator - Graduate Assistant in Math and Computer Science at Southern Arkansas Universiry"
+			],				
+			"imgURL":"img/work.jpg"
+		},
+		{
+			"id":"education",
+			"title":"Education",
+			"content":"Learning is a treasure that will follow its owner everywhere - Chinese proverb",
+			"list":[
+				"Master in Computer and Information Science, January 2008 - December 2009 at at Southern Arkansas Universiry",
+				"Pre-Graduate in Management Information Systems, August 2007 - December 2007 at University of Central Arkansas",
+				"Bachelor of Business Administration, September 1999 - June 2003 at Chaoyang University of Technology"
+			],				
+			"imgURL":"img/education.jpg"
+		}
+	]
+}
